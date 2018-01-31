@@ -4,7 +4,7 @@ Set a primary category for your (custom) posts and query them in your template u
 
 ## Assumptions
 
-* Custom post types use the native category taxonomy - 'taxonomies' => array('category'),
+* Custom post types use the native category taxonomy - `'taxonomies' => array('category')`
 
 ## Further improvements:
 
