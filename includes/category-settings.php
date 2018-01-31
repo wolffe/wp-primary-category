@@ -17,7 +17,7 @@ function wppc_settings() { ?>
                 $wppc_primary_category = array_map('sanitize_text_field', $_POST['wppc_primary_category']);
                 update_option('wppc_primary_category', $wppc_primary_category);
 
-                echo '<div class="updated notice is-dismissible"><p>Settings updated!</p></div>';
+                echo '<div class="updated notice is-dismissible"><p>' . __('Settings updated!', 'wp-primary-category') . '</p></div>';
             }
             ?>
             <form method="post" action="">
