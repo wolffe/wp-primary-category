@@ -6,7 +6,7 @@ Set a primary category for your (custom) posts and query them in your template u
 
 * Custom post types use the native category taxonomy - `'taxonomies' => array('category')`
 
-## Further improvements:
+## Further improvements
 
 * Dynamically show/hide `_builtin` post types (default to show).
 * Dynamically show/hide non-public (non-publicly queryable) post types (default to hide).
